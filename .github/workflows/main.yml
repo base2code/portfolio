@@ -17,4 +17,4 @@ jobs:
         with:
           secrets: ${{ secrets.google_service_account_credentials }}
           bucket: 'base2code'
-          exclude: '.*\.md$|\.gitignore$|\.git/.*$|\.github/.*$'
+          exclude: '.*\.md$|\.gitignore$|\.git/.*$|\.github/.*$|..*|LICENSE|package.json|package-lock.json|sass'
